@@ -278,7 +278,7 @@ h2 {
   color: #212842;
 }
 /*************** animation *********************/
-.mappe3 {
+.mappe {
   position: absolute;
   width: 280px;
   top: 15%;
@@ -296,12 +296,12 @@ h2 {
   margin-top: 9rem;
 }
 
-.overskift_ani {
+.overskift_temaer {
   font-weight: 500;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
-.underverskift_ani {
+.underverskift {
   margin-bottom: 3rem;
 }
 
@@ -331,4 +331,20 @@ h2 {
   flex-direction: row;
   left: 80%;
   top: 131%;
+}
+
+/*************** ux/ui *********************/
+.mappe2_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 21.5%;
+  color: #212842;
+}
+
+.tilbage_tekst_uxui {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80%;
+  top: 136.5%;
 }
