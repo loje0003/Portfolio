@@ -278,6 +278,14 @@ h2 {
   color: #212842;
 }
 /*************** animation *********************/
+p {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1rem;
+  color: #212842;
+  padding: 1rem;
+}
 .mappe {
   position: absolute;
   width: 280px;
@@ -293,16 +301,12 @@ h2 {
 
 .mappe3_beskrivelse {
   margin: 1rem;
-  margin-top: 9rem;
+  margin-top: 8rem;
 }
 
 .overskift_temaer {
   font-weight: 500;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-.underverskift {
-  margin-bottom: 3rem;
+  padding: 1rem;
 }
 
 .grid_8-1 {
@@ -330,7 +334,7 @@ h2 {
   display: flex;
   flex-direction: row;
   left: 80%;
-  top: 131%;
+  top: 155%;
 }
 
 /*************** ux/ui *********************/
@@ -346,5 +350,13 @@ h2 {
   display: flex;
   flex-direction: row;
   left: 80%;
-  top: 136.5%;
+  top: 158%;
+}
+
+/*************** web *********************/
+.mappe1_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 25.5%;
+  color: #212842;
 }
