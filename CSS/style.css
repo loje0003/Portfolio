@@ -136,3 +136,144 @@ h3 {
   width: 40px;
   height: auto;
 }
+
+/*************** projketer *********************/
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color: #212842;
+}
+
+.tryk_her_krusedulle {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  width: 120px;
+}
+.tryk_her_streg {
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  width: 30px;
+}
+
+.tryk_her_tekst {
+  position: absolute;
+  top: 14%;
+  left: 16%;
+}
+
+.mapper {
+  position: relative;
+  margin-top: 7rem;
+}
+
+#mappe01 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+.web_tekst {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+}
+
+.link {
+  position: absolute;
+  top: 53%;
+  left: 41%;
+  z-index: 1;
+}
+
+.krusedulle {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 120px;
+}
+
+#mappe02 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+
+.uxui_tekst {
+  position: absolute;
+  top: 30%;
+  left: 34%;
+}
+#mappe03 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+.animation_tekst {
+  position: absolute;
+  top: 30%;
+  left: 17%;
+  color: #fff6d2;
+}
+.animation_link {
+  position: absolute;
+  top: 53%;
+  left: 41%;
+  z-index: 1;
+  color: #fff6d2;
+}
+
+#mappe04 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+
+.indhold_tekst {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.frem {
+  z-index: 10;
+}
+
+#knap01 {
+  position: absolute;
+  z-index: 10;
+  top: 20.8%;
+  left: 83%;
+  cursor: pointer;
+  color: #212842;
+}
+#knap02 {
+  position: absolute;
+  z-index: 10;
+  top: 20.8%;
+  left: 70%;
+  cursor: pointer;
+  color: #212842;
+}
+#knap03 {
+  position: absolute;
+  z-index: 10;
+  top: 20.8%;
+  left: 58%;
+  cursor: pointer;
+  color: #fff6d2;
+}
+#knap04 {
+  position: absolute;
+  z-index: 10;
+  top: 20.8%;
+  left: 45%;
+  cursor: pointer;
+  color: #212842;
+}
