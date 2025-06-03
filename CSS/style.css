@@ -360,3 +360,18 @@ p {
   left: 25.5%;
   color: #212842;
 }
+
+/*************** indhold *********************/
+.mappe4_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 15%;
+  color: #212842;
+}
+.tilbage_tekst_indhold {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80%;
+  top: 151.5%;
+}
