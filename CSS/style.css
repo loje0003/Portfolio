@@ -277,3 +277,58 @@ h2 {
   cursor: pointer;
   color: #212842;
 }
+/*************** animation *********************/
+.mappe3 {
+  position: absolute;
+  width: 280px;
+  top: 15%;
+  left: 5%;
+}
+.mappe3_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 8.5%;
+  color: #fff6d2;
+}
+
+.mappe3_beskrivelse {
+  margin: 1rem;
+  margin-top: 9rem;
+}
+
+.overskift_ani {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.underverskift_ani {
+  margin-bottom: 3rem;
+}
+
+.grid_8-1 {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  gap: 20px;
+}
+.knap_skift {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-right: 3rem;
+  width: 40px;
+}
+
+.tilbage_krusedulle {
+  width: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 75%;
+}
+.tilbage_tekst {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80%;
+  top: 131%;
+}
