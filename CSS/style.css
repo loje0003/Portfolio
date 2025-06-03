@@ -1,0 +1,138 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.body_index {
+  background-color: #fff6d2;
+}
+
+/*************** header *********************/
+.body_projekter {
+  background-color: aliceblue;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 10px;
+}
+
+.logo {
+  width: 30px;
+}
+
+.projekter {
+  margin-left: 250px;
+}
+.om_mig {
+  margin-left: 325px;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+  border-style: none;
+  color: #212842;
+}
+/*************** Forside *********************/
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7rem;
+  margin: 1rem;
+  color: #212842;
+}
+.overskrift {
+  margin-top: 10rem;
+}
+.FOLIO {
+  text-align: right;
+  margin-top: -5rem;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.portfolio-layout {
+  gap: 20px;
+  position: relative;
+}
+
+.projekter {
+  position: absolute;
+}
+
+.navn {
+  top: 32%;
+  left: 5%;
+}
+
+.animation {
+  top: -10%;
+  left: -10%;
+}
+
+.krusedulle_animation {
+  top: -15%;
+  left: -14.5%;
+  width: 130px;
+  height: auto;
+}
+
+.web {
+  top: 100%;
+  left: -45%;
+}
+
+.krusedulle_web {
+  top: 95%;
+  left: -52%;
+  width: 100px;
+  height: auto;
+}
+.uxui {
+  top: 120%;
+  left: -10%;
+}
+
+.krusedulle_uxui {
+  top: 116%;
+  left: -16%;
+  width: 100px;
+  height: auto;
+}
+.indhold {
+  top: 103%;
+  right: 8%;
+}
+
+.krusedulle_indhold {
+  top: 97%;
+  left: 15%;
+  width: 120px;
+  height: auto;
+}
+
+.knap_index {
+  position: absolute;
+  left: 45%;
+  top: 170%;
+  width: 40px;
+  height: auto;
+}
