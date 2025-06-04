@@ -375,3 +375,56 @@ p {
   left: 80%;
   top: 151.5%;
 }
+
+/*************** om mig *********************/
+
+.grid_2-1-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.foto {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  position: relative;
+}
+
+.mig {
+  position: absolute;
+  width: 235px;
+  top: -55%;
+  left: -2%;
+}
+
+.krusedulle_mig {
+  position: absolute;
+  width: 190px;
+  top: -40%;
+  left: 5%;
+}
+
+.kvittering {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  width: 250px;
+  position: relative;
+}
+
+.overskrift_kvittering {
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  font-size: 1.1rem;
+}
+
+.tekst_kvittering {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+.tekst_kvittering1 {
+  margin-bottom: 1rem;
+}
