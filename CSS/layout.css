@@ -1,0 +1,371 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** header *********************/
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.menu li:hover {
+  border-bottom: 1px solid;
+}
+
+.logo {
+  width: 30px;
+}
+
+/*************** Forside *********************/
+
+.overskrift {
+  margin-top: 7rem;
+}
+.FOLIO {
+  text-align: right;
+  margin-top: -5rem;
+}
+
+.portfolio-layout {
+  gap: 20px;
+  position: relative;
+}
+
+.projekter {
+  position: absolute;
+}
+
+.navn {
+  top: 32%;
+  left: 63%;
+}
+
+.animation {
+  top: -10%;
+  left: 14%;
+}
+
+.krusedulle_animation {
+  top: -15%;
+  left: 10%;
+  width: 130px;
+  height: auto;
+}
+
+.web {
+  top: 103%;
+  left: 24%;
+}
+
+.krusedulle_web {
+  top: 100%;
+  left: 19%;
+  width: 80px;
+  height: auto;
+}
+.uxui {
+  top: 130%;
+  left: 40%;
+}
+
+.krusedulle_uxui {
+  top: 126%;
+  left: 34%;
+  width: 100px;
+  height: auto;
+}
+.indhold {
+  top: 103%;
+  right: 8%;
+}
+
+.krusedulle_indhold {
+  top: 97%;
+  left: 71%;
+  width: 120px;
+  height: auto;
+}
+
+.knap_index {
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  position: absolute;
+  bottom: 25px; /* afstand fra bunden */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*************** projketer *********************/
+
+.tryk_her_krusedulle {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  width: 120px;
+}
+.tryk_her_streg {
+  position: absolute;
+  top: 17%;
+  left: 35%;
+  width: 30px;
+}
+
+.tryk_her_tekst {
+  position: absolute;
+  top: 14%;
+  left: 16%;
+}
+
+.mapper {
+  position: relative;
+  margin-top: 7rem;
+}
+
+#mappe01 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+
+#mappe02 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+
+#mappe03 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+
+#mappe04 {
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  width: 80%;
+}
+.mappe-indhold {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation_tekst {
+  color: #fff6d2;
+}
+.animation_link {
+  color: #fff6d2;
+  position: absolute;
+  margin-top: 4rem;
+  z-index: 1;
+}
+
+.link {
+  position: absolute;
+  margin-top: 4rem;
+  z-index: 1;
+}
+
+.krusedulle {
+  width: 120px;
+}
+
+.frem {
+  z-index: 10;
+}
+
+.knapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  position: absolute;
+  top: 22.5%;
+  right: 13%;
+  z-index: 10;
+  cursor: pointer;
+  color: #212842;
+}
+
+#knap03 {
+  color: #fff6d2;
+}
+
+/*************** animation *********************/
+
+.mappe {
+  position: absolute;
+  width: 280px;
+  top: 15%;
+  left: 5%;
+}
+.mappe3_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 8.5%;
+  color: #fff6d2;
+}
+
+.mappe3_beskrivelse {
+  margin: 1rem;
+  margin-top: 8rem;
+}
+
+.overskift_temaer {
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.grid_8-1 {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  gap: 20px;
+}
+.knap_skift {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  margin-right: 3rem;
+  width: 40px;
+}
+
+.tilbage_krusedulle {
+  width: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 75%;
+}
+.tilbage_tekst {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80%;
+  top: 155%;
+}
+
+/*************** ux/ui *********************/
+.mappe2_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 21.5%;
+  color: #212842;
+}
+
+.tilbage_tekst_uxui {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80%;
+  top: 158%;
+}
+
+/*************** web *********************/
+.mappe1_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 25.5%;
+  color: #212842;
+}
+
+/*************** indhold *********************/
+.mappe4_tekst {
+  position: absolute;
+  top: 23.5%;
+  left: 15%;
+  color: #212842;
+}
+.tilbage_tekst_indhold {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  left: 80%;
+  top: 151.5%;
+}
+
+/*************** om mig *********************/
+
+.grid_2-1-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.foto {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  position: relative;
+}
+
+.mig {
+  position: absolute;
+  width: 235px;
+  top: -55%;
+  left: -2%;
+}
+
+.krusedulle_mig {
+  position: absolute;
+  width: 190px;
+  top: -40%;
+  left: 5%;
+}
+
+.kvittering {
+  grid-column: 2/4;
+  grid-row: 1/3;
+  width: 250px;
+  position: relative;
+}
+
+.overskrift_kvittering {
+  position: absolute;
+  top: 3%;
+  left: 7%;
+  font-size: 1.1rem;
+}
+
+.tekst_kvittering {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+}
+.tekst_kvittering1 {
+  margin-bottom: 1rem;
+}
