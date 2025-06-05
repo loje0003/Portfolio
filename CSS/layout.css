@@ -148,27 +148,9 @@ img {
   margin-top: 7rem;
 }
 
-#mappe01 {
-  position: absolute;
-  top: 100%;
-  left: 10%;
-  width: 80%;
-}
-
-#mappe02 {
-  position: absolute;
-  top: 100%;
-  left: 10%;
-  width: 80%;
-}
-
-#mappe03 {
-  position: absolute;
-  top: 100%;
-  left: 10%;
-  width: 80%;
-}
-
+#mappe01,
+#mappe02,
+#mappe03,
 #mappe04 {
   position: absolute;
   top: 100%;
@@ -230,23 +212,22 @@ img {
 }
 
 /*************** animation *********************/
-
+.grid_8-1 {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  gap: 20px;
+  align-items: center;
+  margin: 3rem;
+}
 .mappe {
-  position: absolute;
   width: 280px;
-  top: 15%;
-  left: 5%;
+  justify-self: center;
 }
 .mappe3_tekst {
   position: absolute;
-  top: 23.5%;
-  left: 8.5%;
+  top: 22.5%;
+  left: 14%;
   color: #fff6d2;
-}
-
-.mappe3_beskrivelse {
-  margin: 1rem;
-  margin-top: 8rem;
 }
 
 .overskift_temaer {
@@ -254,71 +235,41 @@ img {
   padding: 1rem;
 }
 
-.grid_8-1 {
-  display: grid;
-  grid-template-columns: 8fr 1fr;
-  gap: 20px;
-}
 .knap_skift {
-  display: flex;
-  flex-direction: column;
-  margin-top: 8rem;
-  margin-right: 3rem;
+  justify-self: center;
   width: 40px;
 }
 
 .tilbage_krusedulle {
   width: 100px;
   position: absolute;
-  display: flex;
-  flex-direction: row;
   left: 75%;
 }
 .tilbage_tekst {
   position: absolute;
-  display: flex;
-  flex-direction: row;
-  left: 80%;
-  top: 155%;
+  margin-left: 22.5rem;
+  margin-top: 0.7rem;
 }
 
 /*************** ux/ui *********************/
 .mappe2_tekst {
   position: absolute;
-  top: 23.5%;
-  left: 21.5%;
-  color: #212842;
-}
-
-.tilbage_tekst_uxui {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  left: 80%;
-  top: 158%;
+  top: 22.5%;
+  left: 28%;
 }
 
 /*************** web *********************/
 .mappe1_tekst {
   position: absolute;
-  top: 23.5%;
-  left: 25.5%;
-  color: #212842;
+  top: 22.5%;
+  left: 32%;
 }
 
 /*************** indhold *********************/
 .mappe4_tekst {
   position: absolute;
-  top: 23.5%;
-  left: 15%;
-  color: #212842;
-}
-.tilbage_tekst_indhold {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  left: 80%;
-  top: 151.5%;
+  top: 22.5%;
+  left: 21%;
 }
 
 /*************** om mig *********************/
@@ -425,5 +376,42 @@ img {
 
   .tryk_her_tekst {
     left: 34%;
+  }
+
+  /*************** temaere *********************/
+  .grid_8-1 {
+    margin-left: 23rem;
+    margin-right: 23rem;
+  }
+  .temaere {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .mappe1_tekst {
+    top: 20.5%;
+    left: 43%;
+  }
+
+  .mappe2_tekst {
+    top: 20.5%;
+    left: 42%;
+  }
+
+  .mappe3_tekst {
+    top: 20.5%;
+    left: 37.8%;
+  }
+  .mappe4_tekst {
+    top: 20.5%;
+    left: 39.5%;
+  }
+
+  .tilbage_krusedulle {
+    margin-right: 10rem;
+  }
+  .tilbage_tekst {
+    margin-left: 58.8rem;
+    margin-top: 0.7rem;
   }
 }
