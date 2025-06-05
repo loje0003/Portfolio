@@ -251,6 +251,9 @@ img {
   margin-top: 0.7rem;
 }
 
+.tema_foto {
+  padding: 20px;
+}
 /*************** ux/ui *********************/
 .mappe2_tekst {
   position: absolute;
