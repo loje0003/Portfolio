@@ -22,7 +22,7 @@ img {
 .menu ul {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 15px;
   margin-top: 10px;
   list-style: none;
 }
@@ -436,11 +436,30 @@ img {
     margin: 0 auto;
   }
 
-  p {
-    font-size: 1.2rem;
+  /*************** om mig *********************/
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-right: 2rem;
   }
 
-  h3 {
-    font-size: 1.2rem;
+  .kvittering_foto {
+    width: 300px;
+  }
+
+  .mig {
+    position: absolute;
+    width: 270px;
+    top: -57%;
+    left: -15%;
+  }
+
+  .krusedulle_mig {
+    position: absolute;
+    width: 220px;
+    top: -45%;
+    left: -5%;
   }
 }
