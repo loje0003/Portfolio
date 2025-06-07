@@ -98,7 +98,7 @@ img {
 }
 .indhold {
   top: 103%;
-  right: 8%;
+  right: 10%;
 }
 
 .krusedulle_indhold {
@@ -379,6 +379,12 @@ img {
 
   .tryk_her_tekst {
     left: 34%;
+  }
+
+  /* viewport width - Her vokser marginerne automatisk, når skærmen bliver bredere. */
+  .index {
+    margin-left: 32vw;
+    margin-right: 32vw;
   }
 
   /*************** temaere *********************/
