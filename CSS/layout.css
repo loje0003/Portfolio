@@ -393,40 +393,48 @@ img {
   }
 
   /*************** temaere *********************/
-  .grid_8-1 {
-    margin-left: 23rem;
-    margin-right: 23rem;
-    margin-bottom: 8rem;
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
+  .grid_8-1 {
+    position: fixed;
+    top: 30%;
+  }
+  .mappe_beskrivelse {
+    grid-column: 2/3; /* flyt til højre kolonne */
+  }
+
   .temaere {
     margin-left: 10rem;
     margin-right: 10rem;
   }
 
   .mappe1_tekst {
-    top: 20.5%;
-    left: 43%;
+    top: 30%;
+    left: 26%;
   }
 
   .mappe2_tekst {
-    top: 20.5%;
-    left: 42%;
+    top: 30%;
+    left: 22%;
   }
 
   .mappe3_tekst {
-    top: 20.5%;
-    left: 37.8%;
+    top: 30%;
+    left: 5.8%;
   }
   .mappe4_tekst {
-    top: 20.5%;
-    left: 39.5%;
+    top: 30%;
+    left: 14%;
   }
 
   .tilbage_krusedulle {
-    margin-right: 10rem;
+    margin-left: 4.5rem;
   }
   .tilbage_tekst {
-    margin-left: 58.7rem;
+    margin-left: 63rem;
     margin-top: 0.6rem;
   }
 
@@ -437,7 +445,6 @@ img {
   }
 
   /*************** om mig *********************/
-
   .grid_1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
