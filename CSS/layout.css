@@ -109,13 +109,11 @@ img {
 }
 
 .knap_index {
-  display: flex;
-  justify-content: center;
   width: 40px;
   position: absolute;
   bottom: 25px; /* afstand fra bunden */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%); /*flytter elementet 50% af dets egen bredde mod venstre.*/
 }
 
 /*************** projketer *********************/
@@ -218,6 +216,7 @@ img {
   gap: 20px;
   align-items: center;
   margin: 3rem;
+  margin-bottom: 5rem;
 }
 .mappe {
   width: 280px;
@@ -254,6 +253,7 @@ img {
 .tema_foto {
   padding: 20px;
 }
+
 /*************** ux/ui *********************/
 .mappe2_tekst {
   position: absolute;
@@ -381,16 +381,22 @@ img {
     left: 34%;
   }
 
-  /* viewport width - Her vokser marginerne automatisk, når skærmen bliver bredere. */
+  /* viewport width - Her vokser marginerne automatisk, når skærmen bliver bredere.
+  32% af skærmbredden */
   .index {
     margin-left: 32vw;
     margin-right: 32vw;
+  }
+
+  .knap_index {
+    bottom: 100px;
   }
 
   /*************** temaere *********************/
   .grid_8-1 {
     margin-left: 23rem;
     margin-right: 23rem;
+    margin-bottom: 8rem;
   }
   .temaere {
     margin-left: 10rem;
@@ -420,7 +426,21 @@ img {
     margin-right: 10rem;
   }
   .tilbage_tekst {
-    margin-left: 58.8rem;
-    margin-top: 0.7rem;
+    margin-left: 58.7rem;
+    margin-top: 0.6rem;
+  }
+
+  .tema_foto {
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
   }
 }
