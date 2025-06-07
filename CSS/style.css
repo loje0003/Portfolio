@@ -55,3 +55,13 @@ p {
   color: #212842;
   padding: 1rem;
 }
+
+@media (min-width: 750px) {
+  p {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+}
