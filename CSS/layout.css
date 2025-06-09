@@ -41,11 +41,11 @@ img {
 /*************** Forside *********************/
 
 .overskrift {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 .FOLIO {
   text-align: right;
-  margin-top: -5rem;
+  margin-top: -6rem;
 }
 
 .portfolio-layout {
@@ -53,67 +53,33 @@ img {
   position: relative;
 }
 
-.projekter {
-  position: absolute;
-}
-
 .navn {
-  top: 32%;
-  left: 63%;
+  position: absolute;
+  top: 25%;
+  left: 62%;
 }
 
-.animation {
-  top: -10%;
-  left: 14%;
-}
-
-.krusedulle_animation {
-  top: -15%;
-  left: 10%;
-  width: 130px;
-  height: auto;
-}
-
-.web {
-  top: 103%;
-  left: 24%;
-}
-
-.krusedulle_web {
-  top: 100%;
-  left: 19%;
-  width: 80px;
-  height: auto;
-}
-.uxui {
-  top: 130%;
-  left: 40%;
-}
-
-.krusedulle_uxui {
-  top: 126%;
-  left: 34%;
-  width: 100px;
-  height: auto;
-}
-.indhold {
-  top: 103%;
-  right: 10%;
-}
-
-.krusedulle_indhold {
-  top: 97%;
-  left: 71%;
-  width: 120px;
-  height: auto;
+.emner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .knap_index {
+  display: flex;
+  justify-content: center;
   width: 40px;
   position: absolute;
-  bottom: 25px; /* afstand fra bunden */
-  left: 50%;
-  transform: translateX(-50%); /*flytter elementet 50% af dets egen bredde mod venstre.*/
+  left: 48%;
+  margin-top: 4rem;
+
+  animation-name: pulse_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 }
 
 /*************** projketer *********************/
@@ -189,7 +155,7 @@ img {
   width: 120px;
 
   animation-name: pulse_kf;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -197,7 +163,7 @@ img {
 
 @keyframes pulse_kf {
   100% {
-    scale: 1.08;
+    scale: 1.6;
   }
 }
 
@@ -404,6 +370,14 @@ body {
 }
 
 @media (min-width: 750px) {
+  /*************** forside *********************/
+  /* viewport width - Her vokser marginerne automatisk, når skærmen bliver bredere.
+  32% af skærmbredden */
+  .index {
+    margin-left: 28vw;
+    margin-right: 28vw;
+  }
+
   /*************** projekter *********************/
 
   body {
@@ -462,17 +436,6 @@ body {
     font-size: 1.1rem;
     left: 32%;
     top: 11%;
-  }
-
-  /* viewport width - Her vokser marginerne automatisk, når skærmen bliver bredere.
-  32% af skærmbredden */
-  .index {
-    margin-left: 32vw;
-    margin-right: 32vw;
-  }
-
-  .knap_index {
-    bottom: 100px;
   }
 
   /*************** temaere *********************/
