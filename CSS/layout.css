@@ -190,7 +190,7 @@ img {
 }
 @keyframes pulse01_kf {
   100% {
-    scale: 1.019;
+    scale: 1.03;
   }
 }
 
@@ -259,6 +259,7 @@ body {
     scale: 1.08;
   }
 }
+
 .tilbage_tekst {
   position: absolute;
   margin-left: 22.5rem;
@@ -283,16 +284,10 @@ body {
   padding-right: 20px;
 
   animation-name: pulse_kf;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
-}
-
-@keyframes pulse_kf {
-  100% {
-    scale: 1.08;
-  }
 }
 
 /*************** ux/ui *********************/
