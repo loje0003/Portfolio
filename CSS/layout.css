@@ -41,7 +41,7 @@ img {
 /*************** Forside *********************/
 
 .overskrift {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 .FOLIO {
   text-align: right;
@@ -55,16 +55,8 @@ img {
 
 .navn {
   position: absolute;
-  top: 25%;
-  left: 62%;
-}
-
-.emner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  top: 32%;
+  left: 60%;
 }
 
 .knap_index {
@@ -73,7 +65,7 @@ img {
   width: 40px;
   position: absolute;
   left: 48%;
-  margin-top: 4rem;
+  margin-top: 6rem;
 
   animation-name: pulse_kf;
   animation-duration: 1s;
