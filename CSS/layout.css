@@ -196,7 +196,7 @@ body {
   margin-bottom: 4rem;
 }
 
-/*************** animation *********************/
+/*************** projekt individuelle sider *********************/
 .grid_8-1 {
   display: grid;
   grid-template-columns: 8fr 1fr;
@@ -209,16 +209,37 @@ body {
   width: 280px;
   justify-self: center;
 }
-.mappe3_tekst {
+
+.col {
+  position: relative;
+}
+.mappe1_tekst {
   position: absolute;
-  top: 22.5%;
-  left: 14%;
-  color: #fff6d2;
+  top: 33%;
+  left: 30%;
 }
 
-.overskift_temaer {
+.mappe2_tekst {
+  position: absolute;
+  top: 33%;
+  left: 25%;
+}
+.mappe4_tekst {
+  position: absolute;
+  top: 33%;
+  left: 14%;
+}
+.mappe3_tekst {
+  color: #fff6d2;
+  position: absolute;
+  top: 33%;
+  left: 6%;
+}
+
+.overskrift_temaer {
   font-weight: 500;
   padding: 1rem;
+  margin-bottom: -1rem;
 }
 
 .knap_skift {
@@ -274,27 +295,6 @@ body {
   animation-direction: alternate;
 }
 
-/*************** ux/ui *********************/
-.mappe2_tekst {
-  position: absolute;
-  top: 22.5%;
-  left: 28%;
-}
-
-/*************** web *********************/
-.mappe1_tekst {
-  position: absolute;
-  top: 22.5%;
-  left: 32%;
-}
-
-/*************** indhold *********************/
-.mappe4_tekst {
-  position: absolute;
-  top: 22.5%;
-  left: 21%;
-}
-
 /*************** om mig *********************/
 
 .grid_2-1-2 {
@@ -302,7 +302,6 @@ body {
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: 1fr 1fr;
   gap: 20px;
-  margin-top: 1rem;
 }
 
 .foto {
@@ -422,25 +421,6 @@ body {
   .temaere {
     margin-left: 10rem;
     margin-right: 10rem;
-  }
-
-  .mappe1_tekst {
-    top: 30%;
-    left: 26%;
-  }
-
-  .mappe2_tekst {
-    top: 30%;
-    left: 22%;
-  }
-
-  .mappe3_tekst {
-    top: 30%;
-    left: 5.8%;
-  }
-  .mappe4_tekst {
-    top: 30%;
-    left: 14%;
   }
 
   .tilbage_krusedulle {
