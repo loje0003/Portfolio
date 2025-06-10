@@ -76,7 +76,7 @@ img {
   margin-top: 4rem;
 
   animation-name: pulse_kf;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
@@ -122,6 +122,13 @@ img {
   width: 80%;
 }
 
+#knap01:hover,
+#knap02:hover,
+#knap03:hover,
+#knap04:hover {
+  transform: scale(1.3);
+}
+
 .mappe-indhold {
   position: absolute;
   top: 0;
@@ -155,16 +162,10 @@ img {
   width: 120px;
 
   animation-name: pulse_kf;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: alternate;
-}
-
-@keyframes pulse_kf {
-  100% {
-    scale: 1.6;
-  }
 }
 
 .frem {
@@ -181,27 +182,10 @@ img {
   z-index: 10;
   cursor: pointer;
   color: #212842;
-
-  animation-name: pulse01_kf;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
-}
-@keyframes pulse01_kf {
-  100% {
-    scale: 1.03;
-  }
 }
 
 #knap03 {
   color: #fff6d2;
-
-  animation-name: pulse01_kf;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate;
 }
 
 .font_size {
@@ -256,7 +240,7 @@ body {
 
 @keyframes pulse_kf {
   100% {
-    scale: 1.08;
+    scale: 1.2;
   }
 }
 
@@ -388,21 +372,9 @@ body {
     align-items: center; /* vertikal */
   }
 
-  #mappe01 {
-    left: 23%;
-    width: 55%;
-  }
-
-  #mappe02 {
-    left: 23%;
-    width: 55%;
-  }
-
-  #mappe03 {
-    left: 23%;
-    width: 55%;
-  }
-
+  #mappe01,
+  #mappe02,
+  #mappe03,
   #mappe04 {
     left: 23%;
     width: 55%;
@@ -501,7 +473,7 @@ body {
   .mig {
     position: absolute;
     width: 270px;
-    top: -57%;
+    top: -59%;
     left: -15%;
   }
 
@@ -512,7 +484,7 @@ body {
   .krusedulle_mig {
     position: absolute;
     width: 220px;
-    top: -45%;
-    left: -5%;
+    top: -48%;
+    left: -6%;
   }
 }
